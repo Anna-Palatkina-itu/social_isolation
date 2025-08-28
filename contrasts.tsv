@@ -1,0 +1,24 @@
+task	desc	conds	weights
+CIC	food_gt_control	Food_1 Food_2 Food_3 Control_1 Control_2 Control_3	0.3333 0.3333 0.3333 -0.3333 -0.3333 -0.3333		
+CIC	food_gt_rest	Food_1 Food_2 Food_3	0.3333 0.3333 0.3333
+CIC	social_gt_control	Social_1 Social_2 Social_3 Control_1 Control_2 Control_3	0.3333 0.3333 0.3333 -0.3333 -0.3333 -0.3333	
+CIC	social_gt_rest	Social_1 Social_2 Social_3	0.3333 0.3333 0.3333	
+CIC	control_gt_food	Food_1 Food_2 Food_3 Control_1 Control_2 Control_3	-0.3333 -0.3333 -0.3333 0.3333 0.3333 0.3333
+CIC	control_gt_rest	Control_1 Control_2 Control_3	0.3333 0.3333 0.3333
+CIC	control_gt_social	Social_1 Social_2 Social_3 Control_1 Control_2 Control_3	-0.3333 -0.3333 -0.3333 0.3333 0.3333 0.3333
+CIC	food_gt_social	Food_1 Food_2 Food_3 Social_1 Social_2 Social_3	0.3333 0.3333 0.3333 -0.3333 -0.3333 -0.3333	
+CIC	social_gt_food	Food_1 Food_2 Food_3 Social_1 Social_2 Social_3	-0.3333 -0.3333 -0.3333 0.3333 0.3333 0.3333
+CIC	rating_gt_rest	Rating	1
+CIC	food1_gt_rest	Food_1	1
+CIC	food2_gt_rest	Food_2	1
+CIC	food3_gt_rest	Food_3	1
+CIC	social1_gt_rest	Social_1	1
+CIC	social2_gt_rest	Social_2	1
+CIC	social3_gt_rest	Social_3	1
+CIC	control1_gt_rest	Control_1	1
+CIC	control2_gt_rest	Control_2	1
+CIC	control3_gt_rest	Control_3	1
+midloc	rew_gt_nonrew	Rewarded NonRewarded	1 -1
+midloc	nonrew_gt_rew	Rewarded NonRewarded	-1 1
+midloc	rew_gt_rest	Rewarded	1
+midloc	nonrew_gt_rest	NonRewarded	1
